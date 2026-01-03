@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+
+
+
 body{
     font-family: "poppins",sans-serif;
 }
@@ -11,12 +14,27 @@ body{
 html {
     scroll-behavior: smooth;
 }
+
 p{
     color: rgb(85, 85, 85);
 }
 
 /* TRANSITION */
+
 a,
 .btn{   
     transition: all 0.3s ease;
+}
+
+/*desktop nav */
+
+nav, 
+.nav-links{
+   display : flex;
+}
+
+nav{
+    justify-content : space-arround;
+    align-items : center;
+    height : 17vh;
 }
